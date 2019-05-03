@@ -13,6 +13,7 @@
         [ 7, 9, 4, 3 ]
         [ 9, 1, 6, 4 ]
 */
+const { displayMatrix } = require('../../utilities/outputUtil');
 
 ( function transposeMatrix(){
     const inputMatrix = [[1, 5, 7, 9],
@@ -35,10 +36,3 @@
 
 } )();
 
-function displayMatrix(inputArr, message){
-    console.log(message);
-    for(let i = 0; i < inputArr.length; i++){
-        console.log(inputArr[i]);
-    }
-    console.log('-------------------------------------------');
-}

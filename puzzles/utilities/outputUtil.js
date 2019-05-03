@@ -13,3 +13,9 @@ exports.displayMatrix = function (inputArr, message){
     }
     console.log('-------------------------------------------');
 }
+
+exports.displayArr = function(arr, message){
+    console.log(message);
+    console.log(arr);
+    console.log('-------------------------------------------');
+}
